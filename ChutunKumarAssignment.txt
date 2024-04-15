@@ -1,0 +1,14 @@
+Skill Name: assignment mcq quiz
+
+Invocation Name: assignment mcq quiz
+
+Intents: 
+       1. QuizIntent:
+                    Utterances: 'yes'
+       2. AnswerIntent:               
+                      Utterances: (ans)
+                                SlotName: {ans}, 
+                                SlotType: ansType,
+                                          slot values:{ school bus, remaining getting dynamically }
+       3. ScoreIntent:
+                     Utterances: score
